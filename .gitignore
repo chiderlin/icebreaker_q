@@ -5,6 +5,7 @@
 *.swp
 .DS_Store
 .atom/
+.build/
 
 
 .buildlog/
@@ -32,7 +33,13 @@ migrate_working_dir/
 .flutter-plugins-dependencies
 .pub-cache/
 .pub/
-/build/
+# /build/
+/build/8*
+/build/app
+/build/flutter_assets
+/build/reports
+/build/7*
+
 
 # Symbolication related
 app.*.symbols
